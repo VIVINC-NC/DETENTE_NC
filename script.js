@@ -23,8 +23,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Fonction de téléchargement
 function downloadGame() {
-    // Téléchargement depuis Google Play (test interne)
-    window.open('https://play.google.com/apps/internaltest/4701596648873095956?brid=rCoe4KFe7BgCpCW1XXU4CQ&fbclid=IwY2xjawODt7hleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeEX_kBEdAj_Y04MVw5RPZYoctbAE1DrYjr4zUMTTJFMpzTrpYwpUDF8zWyvU_aem_XGG1O5PfGmSTFEHOKT_Xwg', '_blank');
+    // Téléchargement depuis Google Play Store (version publique)
+    window.open('https://play.google.com/store/apps/details?id=com.vivi.bingo', '_blank');
 }
 
 // Animation des badges de sécurité
@@ -118,8 +118,8 @@ if (downloadButton) {
 // Afficher un message de bienvenue
 window.addEventListener('load', () => {
     console.log('🎮 Bienvenue sur Jeux, livres et divers Nouvelle-Calédonie !');
-    console.log('🎰 Découvrez KAYOUXXX - Le meilleur jeu de bingo gratuit !');
-    console.log('🛡️ Version bêta - Accès anticipé');
+    console.log('🎰 Découvrez BINGO NC - Maintenant sur le Play Store !');
+    console.log('🛡️ Version publique disponible');
 });
 
 // Créer des étoiles en arrière-plan
