@@ -23,8 +23,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Fonction de téléchargement
 function downloadGame() {
-    // Téléchargement depuis Google Play Store (version publique)
-    window.open('https://play.google.com/store/apps/details?id=com.vivi.bingo', '_blank');
+    // Lien pour devenir testeur de BINGO NC
+    window.open('https://play.google.com/apps/testing/com.vivi.bingo', '_blank');
 }
 
 // Animation des badges de sécurité
@@ -118,8 +118,8 @@ if (downloadButton) {
 // Afficher un message de bienvenue
 window.addEventListener('load', () => {
     console.log('🎮 Bienvenue sur Jeux, livres et divers Nouvelle-Calédonie !');
-    console.log('🎰 Découvrez BINGO NC - Maintenant sur le Play Store !');
-    console.log('🛡️ Version publique disponible');
+    console.log('🎰 Devenez testeur de BINGO NC !');
+    console.log('🛡️ Version bêta - Testeurs recherchés');
 });
 
 // Créer des étoiles en arrière-plan
